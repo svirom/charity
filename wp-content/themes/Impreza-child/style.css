@@ -9,8 +9,13 @@ Author URI: http://us-themes.com/
 
 /*Add your own styles here:*/
 
-#qtranxs_select_language-chooser { width: 56px; height: 36px; margin-left: 24px; padding-left: 8px; line-height: 36px; font-size: 13px; color: #aab2bd; box-shadow: 0 0 1px 1px rgba(0,0,0,.1); background: #f2f3f5 url(framework/img/select_arrow.png) 40px center no-repeat; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+/*#qtranxs_select_language-chooser { width: 56px; height: 36px; margin-left: 24px; padding-left: 8px; line-height: 36px; font-size: 13px; color: #aab2bd; box-shadow: 0 0 1px 1px rgba(0,0,0,.1); background: #f2f3f5 url(framework/img/select_arrow.png) 40px center no-repeat; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
 
 @media (max-width: 767px) {
 	#qtranxs_select_language-chooser { background: #FBFBFB url(framework/img/select_arrow.png) 36px center no-repeat; }
+}*/
+
+h1 p { font-size: 5rem; font-weight: 700; } 
+@media (max-width: 767px) {
+	h1 p { font-size: 44px; }
 }
