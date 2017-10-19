@@ -28,11 +28,11 @@ $form_template_vars = array(
 		's' => array(
 			'type' => 'textfield',
 			'title' => ( $layout == 'fullscreen' ) ? __( 'Just type and press \'enter\'', 'us' ) : '',
-			'placeholder' => us_translate( 'Search' ) . ' ...',
+			'placeholder' => __( 'Search', 'us' ) . ' ...',
 		),
 		'submit' => array(
 			'type' => 'submit',
-			'title' => us_translate( 'Search' ),
+			'title' => __( 'Search', 'us' ),
 		),
 	),
 );

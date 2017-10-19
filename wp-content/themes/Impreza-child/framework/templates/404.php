@@ -92,7 +92,7 @@ if ( $page_404 ) {
 
 						<?php
 
-						$the_content = '<h1>' . __( 'Page not found', 'Impreza-child' ) . '</h1><p>' . __( 'The link you followed may be broken, or the page may have been removed.', 'us' ) . '</p>';
+						$the_content = '<h1>' . __( 'Page not found', 'us' ) . '</h1><p>' . __( 'The link you followed may be broken, or the page may have been removed.', 'us' ) . '</p>';
 						echo apply_filters( 'us_404_content', $the_content );
 
 						?>

@@ -11,7 +11,7 @@ get_header();
 // Creating .l-titlebar
 us_load_template(
 	'templates/titlebar', array(
-	'title' => sprintf( us_translate( 'Search results for &#8220;%s&#8221;' ), esc_attr( get_search_query() ) ),
+	'title' => sprintf( __( 'Search results for &#8220;%s&#8221;', 'us' ), esc_attr( get_search_query() ) ),
 )
 );
 
