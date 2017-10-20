@@ -79,7 +79,7 @@ if ( $use_custom_query ) {
 }
 
 if ( ! have_posts() ) {
-	echo us_translate( 'No results found.' );
+	echo __( 'No results found.', 'us' );
 	return;
 }
 
@@ -193,7 +193,7 @@ $template_vars = array(
 while ( have_posts() ) {
 	the_post();
 
-	us_load_template( 'templates/blog/listing-post', $template_vars );
+	include get_stylesheet_directory() . '/framework/templates/blog/listing-post.php';
 }
 
 ?></div><?php

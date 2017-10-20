@@ -11,14 +11,14 @@ return array(
 		'name' => array(
 			'type' => 'textfield',
 			'title' => '',
-			'placeholder' => us_translate( 'Name' ),
+			'placeholder' => __( 'Name', 'us' ),
 			'error' => __( 'Please enter your Name', 'us' ),
 		),
 		'email' => array(
 			'type' => 'email',
 			'title' => '',
-			'placeholder' => us_translate( 'Email' ),
-			'error' => us_translate( 'Please enter a valid email address.' ),
+			'placeholder' => __( 'Email', 'us' ),
+			'error' => __( 'Please enter a valid email address.', 'us' ),
 		),
 		'phone' => array(
 			'type' => 'textfield',

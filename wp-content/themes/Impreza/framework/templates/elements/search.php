@@ -35,13 +35,13 @@ if ( ! empty( $product_search ) AND $product_search ) {
 $output .= '<span class="w-form-row-field-bar"></span>';
 $output .= '</div>';
 if ( $layout == 'simple' ) {
-	$output .= '<button class="w-search-form-btn" type="submit"><span>' . us_translate( 'Search' ) . '</span></button>';
+	$output .= '<button class="w-search-form-btn" type="submit"><span>' . __( 'Search', 'us' ) . '</span></button>';
 }
 // Language code
 if ( defined( 'ICL_LANGUAGE_CODE' ) AND ICL_LANGUAGE_CODE != '' ) {
 	$output .= '<input type="hidden" name="lang" value="' . esc_attr( ICL_LANGUAGE_CODE ) . '" />';
 }
 $output .= '<div class="w-search-close"></div></form></div>';
-$output .= '<a class="w-search-open" href="javascript:void(0);" aria-label="' . us_translate( 'Search' ) . '"></a></div>';
+$output .= '<a class="w-search-open" href="javascript:void(0);" aria-label="' . __( 'Search', 'us' ) . '"></a></div>';
 
 echo $output;

@@ -699,12 +699,12 @@ return array(
 			'std' => array(),
 		),
 		'search' => array(
-			'title' => us_translate( 'Search' ),
+			'title' => __( 'Search', 'us' ),
 			'params' => array(
 				'text' => array(
 					'title' => __( 'Placeholder Text', 'us' ),
 					'type' => 'text',
-					'std' => us_translate( 'Search' ),
+					'std' => __( 'Search', 'us' ),
 				),
 				'layout' => array(
 					'title' => __( 'Layout', 'us' ),

@@ -28,7 +28,7 @@ if ( $layout == 'fullscreen' ) {
 $output .= '<div class="w-search-form">';
 $output .= '<form class="w-search-form-h" autocomplete="off" action="' . esc_attr( home_url( '/' ) ) . '" method="get">';
 $output .= '<div class="w-search-form-field">';
-$output .= '<input type="text" name="s" id="us_form_search_s" placeholder="' . esc_attr( $text ) . '" aria-label="' . esc_attr( $text ) . '"/>';
+$output .= '<input type="text" name="s" id="us_form_search_s" placeholder="' . esc_attr_e( $text ) . '" aria-label="' . esc_attr( $text ) . '"/>';
 if ( ! empty( $product_search ) AND $product_search ) {
 	$output .= '<input type="hidden" name="post_type" value="product" />';
 }

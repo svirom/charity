@@ -37,7 +37,7 @@ $default_search_sidebar_id = us_get_option( 'search_sidebar_id', 'default_sideba
 
 						<?php do_action( 'us_before_search' ) ?>
 
-						<?php us_load_template( 'templates/blog/listing', $template_vars ) ?>
+						<?php include get_stylesheet_directory() .  '/framework/templates/blog/listing.php' ?>
 
 						<?php do_action( 'us_after_search' ) ?>
 

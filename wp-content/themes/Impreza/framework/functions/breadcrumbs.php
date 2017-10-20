@@ -4,6 +4,7 @@
  * Based on breadcrumbs function by Dimox
  * http://dimox.net/wordpress-breadcrumbs-without-a-plugin/
  */
+if ( ! function_exists( 'us_breadcrumbs' ) ) {
 function us_breadcrumbs() {
 
 	/* === OPTIONS === */
@@ -228,3 +229,4 @@ function us_breadcrumbs() {
 		echo '</div>';
 	}
 } // end dimox_breadcrumbs()
+}

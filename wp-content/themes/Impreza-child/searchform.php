@@ -8,3 +8,4 @@
  */
 
 include get_stylesheet_directory() . '/framework/templates/widgets/search.php';
+//locate_template( 'templates/widgets/search', array( 'context' => 'widget' ) );
