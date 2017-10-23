@@ -23,3 +23,8 @@ h1 p { font-size: 5rem; font-weight: 700; }
 .stats-left .aio-icon-left {
 	vertical-align: middle;
 }
+
+.w-gallery-item-img img {
+	padding: 2px;
+	border: 1px solid #ddd;
+}
